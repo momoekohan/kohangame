@@ -5,29 +5,24 @@
 	<head>
 	
 		<meta charset="UTF-8">
-		<title>MOTHER'S WORLD</title>
+		<link rel="stylesheet" href="{{asset('css/top.css')}}">
+		<title>こはんあつめ</title>
 		
 	</head>
 
 
 	<body>
 	
-		<h1>ようこそ<br><span id = "maintitle">MOTHER</span>の世界へ！</h1>
+		<p class = "maintitle"><img src = "{{asset('image/logo_maintitle.png')}}"></p>
 		
-		<div class = "first">
-			<a href = "mother_w.html">？MOTHERってどんなゲーム？</a>
+		<div class = "menu">
+
+			<a href = "{{url('prologue')}}">はじめから</a>
+			<a href = "{{url('map')}}">つづきから</a>
+			<a href = "{{url('option')}}">おぷしょん</a>
+			<a href = "{{url('collection')}}">これくしょん</a>
+
 		</div>
-		
-		<div class = "main">
-			<p class = "question">どの世界に行きますか？</p>
-			
-			<div class = "link">
-				<a href = "mother1.html">まざー１</a>
-				<a href = "mother2.html">まざー２</a>
-				<a href = "mother3.html">まざー３</a>
-			</div>
-		</div>
-		
 		
 	</body>
 	

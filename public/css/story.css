@@ -1,0 +1,24 @@
+﻿@charset "UTF-8";
+
+body {
+	font-family: Meiryo;
+	position: relative;
+
+	background-image: url(../image/bg_story_tsugakuro.jpg);
+	background-size: cover;
+}
+
+.textbox {
+	width: 90%;
+	background: rgba(0,0,0,0.5);
+
+	margin: 0 auto;
+
+	position: fixed;
+	bottom: 2%;
+}
+
+.text {
+	color: #ffffff;
+	padding: 20px;
+}
