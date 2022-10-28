@@ -14,7 +14,7 @@
 	<body>
 
 		<div class = "textbox">
-			<p class = "text">ここでストーリーが展開されるよ</p>
+			<p class = "text">{{$bunsho}}</p>
 			<a href = "{{url('map')}}">ストーリーが終わったらMAPへ飛ぶ</a>
 		</div>
 		

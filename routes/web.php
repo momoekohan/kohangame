@@ -17,13 +17,21 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/hoge/{test}/{sample}', function ($test, $sample) {
+    // echo "入力したのは" . $x . "です！";
+    echo $test + 5;
+    echo PHP_EOL;
+    echo $sample + 5;
+    return;
+});
+
+Route::get('/test/{user}', 'App\Http\Controllers\TestController@test');
+
 Route::get('/top', function () {
     return view('top');
 });
 
-Route::get('/prologue', function () {
-    return view('prologue');
-});
+Route::get('/prologue/{number}', 'App\Http\Controllers\TestController@prologue');
 
 Route::get('/map', function () {
     return view('map');
